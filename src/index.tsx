@@ -5,7 +5,7 @@ import './index.css'
 
 ReactDOM.render(
     <React.StrictMode>
-        <div>
+        <div style={{position:'fixed'}}>
             <Routes/>
         </div>
     </React.StrictMode>,
