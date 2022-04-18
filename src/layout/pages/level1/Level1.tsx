@@ -11,7 +11,7 @@ import {
     direction_start,
 } from './constants';
 import './Level1.module.css'
-import {Button, Grid} from "@mui/material";
+import {Button, Grid, Card} from "@mui/material";
 
 export interface ICoords {
     x: number;
@@ -143,6 +143,15 @@ function Level1() {
 
 
     return(
+        <Card variant='outlined'
+              sx={{
+
+                  padding: 0.8,
+                  backgroundColor: '#eaeae8',
+                  border: 'none',
+                  width: 1000,
+                  height: 500,
+              }}>
         <div className="wrapper" >
             <div>Snake Game(Level 1)</div>
             <div
@@ -171,6 +180,7 @@ function Level1() {
                 <p className="points">{points}</p>
             </div>
         </div>
+        </Card>
     )
 }
 
