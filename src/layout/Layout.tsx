@@ -9,11 +9,11 @@ const Layout:FC = ({children}) => {
     return(
         <>
             <Header/>
-            <Grid container spacing={4} marginX={1} marginTop={3}>
+            <Grid container spacing={0} marginX={0} marginTop={12}>
                     <Grid item md={2}>
                         <ListItem><Menu/></ListItem>
                     </Grid>
-                <Grid item md={6}>
+                <Grid item md={8}>
                     <ListItem>{children}</ListItem>
                 </Grid>
             </Grid>
