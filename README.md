@@ -1,4 +1,4 @@
-#Hello
+# Hello
 
 This game is written in React TypeScript using the MUI library.
 
